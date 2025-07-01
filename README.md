@@ -63,3 +63,11 @@ This project demonstrates how to launch, connect to, and configure an EC2 instan
 chmod 400 ~/Downloads/ndwill_secret.pem
 
 ssh -i ~/Downloads/ndwill_secret.pem ec2-user@<your-public-ip>
+
+chmod 400: Secures the key file
+
+ssh -i: Connects using your private key
+
+ec2-user: Default user for Amazon Linux
+
+<your-public-ip>: Replace with your EC2's public IP
