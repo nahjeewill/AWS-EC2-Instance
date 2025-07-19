@@ -34,7 +34,7 @@ Sign in to the AWS Management Console.
 - In the EC2 Dashboard, click “Launch instance”.
 
 
-- Fill out the form:
+- Fill out the form: (Make sure a VPC and Subnet is created beforehand.)
 
 
 3.1 Name and Tags
